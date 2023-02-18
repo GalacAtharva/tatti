@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1!</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* CSS reset */
+        body{
+            font-family: 'Baloo Bhai', cursive;
+            font-weight: bolder;
+            margin: 0px ;
+            padding: 0px;
+            
+            background: url(projpics/wow.jpg) ;
+            background-repeat: no-repeat;
+            
+        }
+        .left{
+            
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+            color: white;
+        }      
+            .mid{
+                display: block;
+                width: 33%;
+                
+                margin: 20px auto;
+                
+
+            }
+          .right{
+            
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            
+
+          }
+             .navbar{
+                display: inline-block;
+             }
+             .navbar li{
+                display: inline-block;
+                font-size: 23px;
+             }
+             .navbar li a{
+                color: white;
+                text-decoration: none;
+                padding: 34px 23px;
+                font-weight: bolder;
+                font-size: 19px
+                ;
+             }
+             .navbar li a:hover, .navbar li a.active{
+              text-decoration: underline
+              ; color: red;
+             }
+             .left img{
+                width: 50px;
+                 padding: 0px 33px;
+             }
+              #search{
+                border: 3px solid;
+                border-radius: 6px;
+                margin: 23px 0px;
+             }
+             .container{
+                border: 10px solid orange;
+                color: salmon;
+                font-size: 45px;
+                margin: 61px 295px;
+                width: 48%;
+                height: 400px;
+                border-radius: 15px ;
+             }
+            .form-group input{
+                text-align: center
+                ;
+                display: block;
+                width: 80%;
+                padding: 12px;
+                margin: 21px auto;
+                border: 3px solid yellow;
+                border-radius: 25px;
+                font-family: 'Baloo Bhai', cursive;
+            }
+            .container button{
+                display: block;
+                width: 23%;
+                margin: auto;
+                 border-radius: 3px;
+                 background-color: black;
+                 color: aliceblue;
+                
+            }
+            .container button:hover{
+                background-color: gray ;
+                cursor: pointer;
+            }
+        
+    
+            </style>
+</head>
+<body>
+    <header class="class1">
+        <div class="left">
+              <img src="projpics/Captain_America's_shield.svg.png" alt="">
+              <div>Marvel Fanpage</div>
+        </div>
+          <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Follow us</a></li>
+                <li><a href="#">Comics!</a></li>
+                
+            </ul>
+
+          </div>
+       <div class="right">
+      <input type="search" name="search" id="search" placeholder="Search any movie.....">
+
+       </div>
+
+
+    </header>
+      <div class="container">
+        <b>WANT TO JOIN OUR PAGE..?</b>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+    
+            </div>  
+            <div class="form-group">
+                <input type="text" name="" placeholder="Namw of your Favourite Hero">
+    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Name of your Favourite Villain">
+    
+            </div>
+        </form>
+            <button class="btn">SUBMIT</button>
+            </div>            
+</body>
+</html>
